@@ -59,6 +59,7 @@ img.card-img-top {
     margin: -10px 0 0 0;
     width: 70%;
     border: none;
+    border-radius: 0 0 3px 3px;
   }
   .card-title {
     font-size: 16px;
