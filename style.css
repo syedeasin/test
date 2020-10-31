@@ -10,20 +10,19 @@ main {
   overflow: hidden;
   height: 100vh;
 }
-.center {
-  margin: auto;
-  padding: 10px;
-}
+/* .center {
+  margin: 10px;
+} */
 
-.logo {
+/* .logo {
   width: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   width: 55%;
-}
-.featured-image {
+} */
+/* .featured-image {
   width: 100%;
   display: block;
   margin-left: auto;
@@ -33,13 +32,13 @@ main {
 }
 .card {
   margin: 4%;
-}
-.card-header,
+} */
+/* .card-header,
 .card-body {
   background-color: #53ff97;
   border-color: #53ff97;
-}
-.google-sign-in {
+} */
+/* .google-sign-in {
   width: 250px;
   display: block;
   margin-left: auto;
@@ -47,20 +46,20 @@ main {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 70%;
-}
+} */
 .card-title {
-  font-size: 25px;
+  font-size: 18px;
   color: #243762;
   margin-top: 20px;
   font-weight: 700;
 }
 .card-text {
-  font-size: 20px;
+  font-size: 16px;
   color: #333;
   font-weight: 400;
-  padding-bottom: 20px;
+  padding-bottom: 18px;
 }
-
+/* 
 @media (max-width: 576px) {
   #holder {
     height: 500px;
@@ -73,5 +72,51 @@ main {
   }
   .center {
     margin: 100px 0;
+  }
+} */
+
+img.card-img-top {
+  position: relative;
+}
+
+.card-body.test {
+  position: absolute;
+  top: 60%;
+  left: 4%;
+  right: 4%;
+}
+
+.googleImg {
+  margin: 30px;
+  cursor: pointer;
+}
+.googleImg > img {
+  width: 70%;
+}
+
+@media (max-width: 576px) {
+  img.card-img-top {
+    width: 70%;
+  }
+
+  .card.text-center.d-flex.align-items-center {
+    background: transparent;
+    border: none;
+  }
+
+  .test-btn {
+    background: white;
+    margin: -10px 0 0 0;
+    width: 70%;
+    border: none;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-text {
+    font-size: 15px;
+  }
+  .card-body.test {
+    top: 55%;
   }
 }
