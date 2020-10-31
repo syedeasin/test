@@ -120,3 +120,33 @@ img.card-img-top {
     top: 55%;
   }
 }
+
+@media (min-width: 576px) {
+  /* .app {
+    position: relative;
+    text-align: center;
+  }
+
+  .app > .center {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: -9px;
+  } */
+
+  .app {
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+  }
