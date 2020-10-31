@@ -10,43 +10,7 @@ main {
   overflow: hidden;
   height: 100vh;
 }
-/* .center {
-  margin: 10px;
-} */
 
-/* .logo {
-  width: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-  width: 55%;
-} */
-/* .featured-image {
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -20px;
-  width: 85%;
-}
-.card {
-  margin: 4%;
-} */
-/* .card-header,
-.card-body {
-  background-color: #53ff97;
-  border-color: #53ff97;
-} */
-/* .google-sign-in {
-  width: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 70%;
-} */
 .card-title {
   font-size: 18px;
   color: #243762;
@@ -59,21 +23,7 @@ main {
   font-weight: 400;
   padding-bottom: 18px;
 }
-/* 
-@media (max-width: 576px) {
-  #holder {
-    height: 500px;
-  }
-  .card-title {
-    font-size: 16px;
-  }
-  .card-text {
-    font-size: 14px;
-  }
-  .center {
-    margin: 100px 0;
-  }
-} */
+
 
 img.card-img-top {
   position: relative;
@@ -122,19 +72,7 @@ img.card-img-top {
 }
 
 @media (min-width: 576px) {
-  /* .app {
-    position: relative;
-    text-align: center;
-  }
 
-  .app > .center {
-    position: absolute;
-    top: 10%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-top: -9px;
-  } */
 
   .app {
     margin: auto;
