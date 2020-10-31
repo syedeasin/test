@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  background-image: url("http://searchqueryauditor.com/wp-content/uploads/2020/10/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.logo {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 55%;
+}
+.featured-image {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  width: 85%;
+}
+.card {
+  margin: 4%;
+}
+.card-header,
+.card-body {
+  background-color: #53ff97;
+  border-color: #53ff97;
+}
+.google-sign-in {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+.card-title {
+  font-size: 25px;
+  color: #243762;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.card-text {
+  font-size: 20px;
+  color: #333;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  #holder {
+    height: 500px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .center {
+    margin: 100px 0;
+  }
+}
